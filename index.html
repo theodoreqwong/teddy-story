@@ -54,7 +54,7 @@
     <div class="container text-center">
       <h1>The Relationship Between GHIAA Membership, Presence, and Town Demographics</h1>
       <p class="lead">by Theodore Wong</p>
-      <p class="lead">Last updated on 12/6</p>
+      <p class="lead">Last updated on 12/9</p>
       <p class="lead">for Data Visualization for All</br>with Prof. Jack Dougherty</br>Trinity College, Hartford CT, USA</p>
     </div>
   </header>
@@ -68,7 +68,11 @@
             
           ​​The Greater Hartford Interfaith Action Alliance (“GHIAA”) is a collection of 40+ congregations in the Hartford area. The goal of GHIAA is to cross “lines of race, class, faith, culture and geography” to tackle common issues faced by Hartford residents.  
             
-          The questions that I chose to address were thus: 1) In each town, what is the ratio of GHIAA member congregations to all congregations? and 2) How do demographics (such as median household income, etc.) vary between towns with higher versus lower ratios of GHIAA members to non-members?
+          </p>
+          
+          <p class="lead">
+            
+            The questions that I chose to address were thus: 1) In each town, what is the ratio of GHIAA member congregations to all congregations? and 2) How do demographics (such as median household income, etc.) vary between towns with higher versus lower ratios of GHIAA members to non-members?
 
 Approaching these questions, I was honestly unsure what the data would show. While this made me uneasy, it also excited me - the chance to approach a complex question with absolutely zero expectations or biases is rare. 
 
@@ -76,6 +80,11 @@ Utilizing raw data provided by our community partners, I decided to filter and w
             
           The statistic that we have illustrated below is meant to show the presence of GHIAA in various towns in the Hartford area. We looked at the total number of congregations in each town, as well as the number of GHIAA-affiliated congregations. We divided the number of GHIAA-affiliated congregations by the number of total congregations to measure GHIAA presence. So below, the darker the color, the more GHIAA presence.
 
+          </p>
+          
+          <p class="lead">
+           Figure 1
+            
           </p>
 
           <iframe title="Percentage of GHIAA Members Among All Congregations in Each Town, Greater Hartford" aria-label="Map" id="datawrapper-chart-OIUj5" src="https://datawrapper.dwcdn.net/OIUj5/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="742"></iframe>
@@ -86,16 +95,31 @@ Utilizing raw data provided by our community partners, I decided to filter and w
 Now that we can visualize the presence of GHIAA congregations in different towns in the region, we can move on to answering Question 2. I pulled demographic information, specifically median household income, for each town from the American Community Survey. Afterwards, I utilized Google Sheets to create a scatter plot so we could observe the relationship between the two variables: median household income and GHIAA/Total Congregation ratio.
           </p>
           
+           <p class="lead">
+           Figure 2
+            
+          </p>
+          
           <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJemkZnLVAX0cnwk-cJxBkIcy6UzOPMFolCj51F0wfuKKlXLwXzkvoGKFCyMnzGY3v9Iy_uKs3U-1l/pubchart?oid=1982954818&amp;format=interactive"></iframe>
 
           <p class="lead">
           My first stab at this shows a weak, borderline nonexistent correlation between these two variables. Returning to the drawing board, I decided to further filter out the data. There are many towns that have 1 or 2 total congregations but 0 GHIAA congregations, which as you can see from the above table skews the data. Given that fact, I decided to remove data points that had 2 or less total congregations.
           </p>
           
+           <p class="lead">
+           Figure 3
+            
+          </p>
+          
           <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJemkZnLVAX0cnwk-cJxBkIcy6UzOPMFolCj51F0wfuKKlXLwXzkvoGKFCyMnzGY3v9Iy_uKs3U-1l/pubchart?oid=997841977&amp;format=interactive"></iframe>
           
           <p class="lead">
           Once adjusting for that factor, the data begins to tell a much more comprehensive and intelligible story. Although the sample size (n=11) is too low for us to declare the results statistically significant, a correlation between GHIAA presence and median household income emerges. Before anyone jumps and points out the outlier at the top right corner, removing that data point still results in a moderate, positive correlation.         
+          </p>
+          
+           <p class="lead">
+           Figure 4
+            
           </p>
           
           <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJemkZnLVAX0cnwk-cJxBkIcy6UzOPMFolCj51F0wfuKKlXLwXzkvoGKFCyMnzGY3v9Iy_uKs3U-1l/pubchart?oid=527406656&amp;format=interactive"></iframe>
